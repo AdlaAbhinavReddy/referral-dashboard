@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
+import { Analytics } from '@vercel/analytics/react'
 import ProtectedRoute from './components/ProtectedRoute'
 import Login from './pages/Login'
 import Dashboard from './pages/Dashboard'
@@ -29,6 +30,7 @@ function App() {
         <Route path="/dashboard/referrals" element={<Navigate to="/" replace />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
+      <Analytics />
     </BrowserRouter>
   )
 }
