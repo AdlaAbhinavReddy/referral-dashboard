@@ -41,7 +41,7 @@ Password: admin123
 
 ## Live demo
 
-[Add your Vercel URL here once deployed]
+https://referral-dashboard-eta-eight.vercel.app
 
 ## A note on the data
 
